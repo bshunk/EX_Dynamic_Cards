@@ -6,14 +6,21 @@
 let input = document.getElementById("userInput");
 let createBtn = document.getElementById("createBtn");
 let outputCard = document.getElementById("cardsOutput");
+let deleteBtn = [];
+let card = "";
 
 // adds a click event listner to the create button and runs function createdCard when clicked
 createBtn.addEventListener("click", createdCard);
 
 // defines function createdCard
 function createdCard() {
+	let 
 
 
+
+
+
+}
 
 
 
