@@ -7,15 +7,21 @@ console.log("greetings.")
 let input = document.getElementById("userInput");
 let createBtn = document.getElementById("createBtn");
 let outputCard = document.getElementById("cardsOutput");
-
+let del = document.getElementsByClassName("deleteBtn")
+let deleteCard = 
 
 // adds a click event listner to the create button and runs function createdCard when clicked
 createBtn.addEventListener("click", createdCard);
 
 // defines function createdCard
 function createdCard() {
-	
-}
+	// sets new variable output to equal 
+	let output = "<div class="card"><section><p class="text">" + input.value + "</p></section><input type="button" class="deleteBtn" value="Delete"></div";
+	outputCard.innerHTML += output;
+	for (var i = 0; i < del.length; i++) {
+		del[i].addEventListener("click", deleteCard)
+	}
+};
 
 
 
